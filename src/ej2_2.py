@@ -1,6 +1,6 @@
 def impares(numero):
     if numero<1:
-        raise ValueError ("Edad menor a 1")
+        raise ValueError ("ERROR : El número no puede ser menor a 1")
     cuenta=0
     numero+=1
     out=str(" ")

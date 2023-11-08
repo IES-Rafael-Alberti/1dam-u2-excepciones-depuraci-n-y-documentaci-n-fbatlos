@@ -7,4 +7,4 @@ while contrase==None:
         print(f"{contrase} es correcta")
     except NameError as e:
         print(e)
-        contrase=None
+        contrase = None
